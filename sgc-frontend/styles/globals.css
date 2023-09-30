@@ -1,0 +1,34 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Black.ttf')format('truetype');
+    font-weight: 900; /* Black */
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: 100; /* Thin */
+  }
+  
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
